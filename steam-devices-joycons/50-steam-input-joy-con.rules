@@ -1,0 +1,5 @@
+# https://github.com/ValveSoftware/steam-devices/pull/63
+
+# Nintendo Switch Joy-Con (L/R)
+KERNEL=="hidraw*", KERNELS=="*057E:200[67]*", MODE="0660", TAG+="uaccess"
+
